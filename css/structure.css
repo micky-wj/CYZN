@@ -1,0 +1,134 @@
+/*样式重置*/
+*{margin:0; padding:0;font-size:14px;font-family:"Microsoft YaHei"}
+ol,ul{list-style:none;}
+a,a:hover{text-decoration:none;}
+img{border:none;vertical-align:top;}
+button,input{background:none; border:none;outline: medium;}
+button{cursor: pointer;}
+body{
+    min-width: 960px;
+}
+/*设置整个上方导航条*/
+#cyzn-head-fixed{
+    background-color:#04B7E6;
+    height:58px;
+    width:100%;
+    min-width: 960px;
+    border-bottom:2px solid lightskyblue;
+    position: fixed;
+    z-index:99;
+    top: 0;
+    left: 0;
+}
+#cyzn-head-wrap{
+    height:58px;
+    width: 960px;
+    line-height: 58px;
+    margin:auto;
+}
+#cyzn-head-wrap>*{
+    display: inline-block;
+    position: relative;
+}
+#cyzn-head-wrap>div{
+    bottom:19px;
+    height: 48px;
+}
+/*设置logo区*/
+#cyzn-head-logo{
+    margin-right:50px ;
+    height: 48px;
+}
+#cyzn-head-logo img{
+    height:48px;
+}
+/*设置导航区*/
+#cyzn-head-nav li{
+    float: left;
+}
+#cyzn-head-nav li + li {
+    margin-left:30px;
+}
+#cyzn-head-wrap li a{
+    color: #ffffff;
+    display: block;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    height:58px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+.cyzn-head-nav-item-choosed{
+    border-bottom:3px solid lightskyblue;
+}
+.cyzn-head-nav-item-title:hover{
+    border-bottom:3px solid lightskyblue;
+}
+/*设置搜索条*/
+#cyzn-head-search{
+    position: relative;
+    bottom:19px;
+    margin:0 25px 0 120px;
+}
+#cyzn-head-search input{
+    vertical-align: middle;
+    font-size: 13px;
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    padding: 2px 0 2px 10px;
+    height:28px;
+    width:120px;
+    border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    margin-right: -20px;
+    background-color: white;
+}
+#cyzn-head-search button{
+    height: 28px;
+    width: 26px;
+    border-radius: 0 10px 10px 0;
+    -webkit-border-radius:0 10px 10px 0;
+    -moz-border-radius:0 10px 10px 0;
+    background-color: white;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    vertical-align: middle;
+}
+#cyzn-head-search button img{
+    height: 15px;
+}
+/*设置登录注册按钮*/
+#cyzn-head-login button{
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 10px;
+    height:28px;
+    width:50px;
+}
+#cyzn-head-login button:hover{
+    background-color: white;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #04B7E6;
+}
+#cyzn-footer{
+    width:100%;
+    background: #111;
+    height: 50px;
+    text-align: center;
+    line-height:25px;
+    font-size: 11px;
+    color: ghostwhite;
+}
+#cyzn-footer a{
+    color:#888;
+    font-size: 11px;
+}

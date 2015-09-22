@@ -1,0 +1,188 @@
+/*初始化设置*/
+h1{
+    font-size: 30px;
+}
+.header{
+    position: relative;
+}
+.header ul{
+    position:absolute;
+    right:0;
+    top: 11px;
+    display: inline-block;
+}
+.header ul li{
+    float:left;
+    display:inline-block;
+    font-weight: bold;
+    cursor:pointer;
+    margin-left: 13px;
+    padding: 5px 10px;
+}
+.header ul li.on{
+    background: #04b7e6;
+    color:white;
+}
+/*设计轮播图*/
+.banner{
+    position:relative;
+    width:960px;
+    height:500px;
+    overflow:hidden;
+    margin: 58px auto 40px;
+}
+.banner-bg{
+    position:absolute;
+    left:0;
+    top:150px;
+    background-color:#000;
+    height:100px;
+    filter: Alpha(Opacity=50);
+    opacity:0.5;
+    z-index:20;
+    width:250px;
+    border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+}
+.banner-info{
+    position:relative;
+    font-size: 40px;
+    height:40px;
+    text-align: center;
+    letter-spacing: 15px;
+    top:20px;
+    left:5px;
+    color:#fff;
+}
+.banner ul{
+    position:absolute;
+    filter: Alpha(Opacity=80);
+    opacity:0.8;
+    z-index:21;
+    bottom:15px;
+    left:360px;
+}
+.banner ul li{
+    float:left;
+    display:block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background:black;
+    cursor:pointer;
+    margin: 0 10px;
+}
+.banner ul li.on{
+    background: #04b7e6;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    bottom: 3px;
+}
+/*设计景点类型*/
+.content1{
+    width:1000px;
+    height: 380px;
+    margin:0 auto;
+    overflow:hidden;
+    position:relative;
+}
+.content1 .header{
+    width: 960px;
+    margin: 0 auto;
+}
+.content1-images{
+    position: relative;
+    overflow:hidden;
+    left: 20px;
+    top:20px;
+    height:340px;
+}
+.images{
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.img-holder{
+    overflow:hidden;
+    width:320px;
+    height:340px;
+    float:left;
+    position:relative;
+    background-color:#000;
+    margin-right: 1px;
+}
+.img-holder .image{
+    position:absolute;
+    left:-100px;
+}
+.img-holder span{
+    background-color:#333;
+    font-size:25px;
+    color:#dedede;
+    font-weight:bold;
+    padding:3px;
+    position:absolute;
+    top:200px;
+    left:10px;
+}
+.img-holder .text{
+    padding:20px;
+    display:none;
+    line-height:26px;
+    position:absolute;
+    top:260px;
+    font-size:16px;
+    color:#fff;
+    width:340px;
+}
+/*设计全部景点区块*/
+.content2{
+    width:960px;
+    margin:40px auto;
+    overflow:hidden;
+    position:relative;
+}
+.content2-lists{
+    margin-top: 10px;
+    width: 960px;
+    overflow: hidden;
+}
+.list{
+    margin-top: 20px;
+}
+.list h2{
+    font-weight:500;
+    color: #0485ad;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.list ul{
+    display: inline-block;
+    width: 960px;
+    margin-left:30px;
+}
+.list ul li{
+    float: left;
+    display: inline-block;
+    width:300px;
+    margin-right: 20px;
+    color: #555;
+    height:30px;
+    line-height:30px;
+}
+.content2-lists .list ul li.hot span{
+    color:white;
+    background-color: red;
+    font-size: 10px;
+    margin-left: 10px;
+    -webkit-transform:scale(0.8);
+    padding: 0 2px;
+    display:inline-block;
+    height: 16px;
+    line-height: 16px;
+    box-shadow: 1px 1px 1px #888888;
+}

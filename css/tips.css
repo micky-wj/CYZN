@@ -1,0 +1,93 @@
+html,body{
+    height:100%;
+}
+/*设计横幅图片*/
+.banner img{
+    width:100%;
+    margin-top:58px;
+}
+.container{
+    width:960px;
+    margin:58px auto 20px;
+    position:relative;
+}
+/*设计侧边导航*/
+.nav{
+    width:150px;
+    display: block;
+    background:white;
+}
+.nav-unfixed{
+    position:absolute;
+    top:0;
+    left:0
+}
+.nav-fixed{
+    position: fixed;
+    top:98px;
+}
+.nav-fixed-left{
+    position: fixed;
+    top:98px;
+    left:0;
+    background-color: #b8fff8;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    padding:30px 10px;
+}
+.nav ul li{
+    display: block;
+    font-weight: bold;
+    height: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    margin:0 10px 0;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+    margin-bottom: 10px;
+}
+.nav ul li.on{
+    border:1px solid #04b7e6 ;
+    border-right:4px solid #04b7e6;
+    border-left: none;
+    font-size: 16px;
+    text-align: right;
+    padding-right: 10px;
+    color: #04b7e6;
+}
+.nav ul li:hover{
+    color: #04b7e6;
+}
+/*设计贴士区块*/
+.tips{
+    width:770px;
+    margin-left: 190px;
+}
+.tip{
+    border: 1px solid #ddd;
+    padding:20px 30px;
+    margin-bottom: 20px;
+}
+.tip h1{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.tip div{
+    line-height: 24px;
+}
+.tip dt{
+    font-size:16px;
+    font-weight: bold;
+    line-height:40px;
+    display: block;
+    height:40px;
+}
+.tip dt:before,.tip>div>ul li:before{
+    content: " ● ";
+    color: #04B7E6;
+}
+.tip dd{
+    margin-left:16px;
+}
